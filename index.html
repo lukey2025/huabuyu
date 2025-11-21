@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HUABUYU AI - Brand Visibility Platform" />
+    <meta name="keywords" content="AI, brand visibility, SEO, content optimization, competitor analysis" />
+    <meta name="author" content="HUABUYU AI Team" />
+    <title>HUABUYU AI - Brand Visibility Platform</title>
+    <!-- Preload critical CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      crossorigin="anonymous"
+      integrity="sha512-L7+1cl/8cNbGk1f24x2nmrB0j0f9zqXh6h0d3jMXcRdjbj1FHKXsxBJ2rx/8BZNF+AUKwA6sQ5SSWCl3s+PQ=="
+    />
+    <!-- Preload main JavaScript -->
+    <link rel="modulepreload" href="/src/main.tsx" />
+  </head>
+  <body>
+    <!-- Fallback content if JavaScript fails to load -->
+    <noscript>
+      <div class="min-h-screen bg-white flex flex-col items-center justify-center p-4">
+        <h1 class="text-2xl font-bold mb-4">JavaScript Required</h1>
+        <p class="text-gray-600 mb-6">This application requires JavaScript to run. Please enable JavaScript in your browser settings.</p>
+        <a href="https://www.enable-javascript.com/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+          Learn how to enable JavaScript
+        </a>
+      </div>
+    </noscript>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Global error handler -->
+    <script>
+      window.addEventListener('error', function(e) {
+        console.error('Global error:', e.error);
+        // You can add more sophisticated error logging here if needed
+      });
+      
+      // Performance monitoring
+      window.addEventListener('load', function() {
+        const loadTime = performance.now();
+        console.log(`Page loaded in ${loadTime.toFixed(2)}ms`);
+      });
+    </script>
+  </body>
+</html>

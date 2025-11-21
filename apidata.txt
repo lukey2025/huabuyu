@@ -1,0 +1,15 @@
+# API Integration Configuration
+
+## Supabase
+- Project URL: https://zuauxobyoqedknyhqelv.supabase.co
+- Anon Public API Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp1YXV4b2J5b3FlZGtueWhxZWx2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM2MTk4ODAsImV4cCI6MjA3OTE5NTg4MH0.ZkBzGTEJKf5suzg8D_7NtFGEHhr3aSkVU4HHyNhozhc
+
+## Upstash Redis
+- REST URL: "https://concrete-cicada-6610.upstash.io"
+- REST Token: "ARnSAAImcDIxYjYxODM5NjJlMzg0NDQ3YTRkODBkMzJmOGEwYmI5ZXAyNjYxMA"
+
+## Deepseek AI
+- API Key: sk-4d928ab7ece24a63bee3ebd3f7cd146a
+
+## Note
+These credentials are provided for demonstration purposes. In a production environment, you should use environment variables to store sensitive information.
